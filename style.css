@@ -119,7 +119,7 @@ header li a {
     text-align: center;
     padding: 8px 18px;
     line-height: 32px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 /*JUMBO*/
@@ -140,13 +140,13 @@ header li a {
 
 .jumbo-description{
     margin-bottom: 30px;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 550;
 }
 
 .jumbo-cta{
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .jumbo-icon{
@@ -159,20 +159,37 @@ header li a {
 }
 
 .jumbo-info{
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 20px;
 }
 
 /*Plan content*/
 
+#price-title{
+    padding-top: 75px;
+    font-size: 33px;
+    font-weight: 700;
+}
+
 .plan{
+    border: 1px solid #aaa;
+    min-height: 750px;
+}
+
+.plan-bottom{
     border: 1px solid #aaa;
 }
 
 .plan__header {
     border-bottom: 1px solid #aaa;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+}
+
+.plan-bottom__header {
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+    padding: 10px;
 }
 
 .plan__body, .plan__footer{
@@ -181,7 +198,20 @@ header li a {
 
 .plan__body, .plan-title{
     font-size: 18px;
-    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.plan__body, .plan-title{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.plan__body, .plan-title{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -195,6 +225,7 @@ header li a {
 .plan__body .bill-rate{
     color: #888;
     font-size: 14px;
+    padding-bottom: 10px;
 }
 
 .plan__body .plan-features{
@@ -251,12 +282,117 @@ header li a {
     font-weight: 600;
 }
 
-.col-6 .left{
-    margin-left: -20px;
+.time{
+    display: inline-block;
+    padding: 40px 10px 20px 0px;
+    font-size: 12px;
 }
+
+.options{
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+#plan-footer-h4{
+    padding-bottom: 20px;
+}
+
+.gives{
+    padding-bottom: 8px;
+}
+
+/*Partner*/
+
+#sec__partner{
+    padding-top: 125px;
+}
+
+#col__partner-pic{
+    width: 970px;
+    margin-left: -10px;
+}
+
+#col__partner-text{
+    height: 420px;
+    position: relative;
+}
+
+.partner-option{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.partner-option h2{
+    padding: 10px;
+    font-size: 22px;
+}
+
+.partner-option p{
+    padding: 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.partner-option a{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+
+}
+
+/*Operazioni*/
+#operations{
+    padding-top: 75px;
+}
+
+.operations-title{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 32px;
+}
+
+#debug{
+    border: 2px dashed darkgreen;
+    padding: 20px;
+}
+
+#operations-col{
+    padding: 20px;
+}
+
+.op__wrapper{
+    border: 4px solid yellow;
+}
+
+#op__title, #op__text{
+    padding: 10px;
+}
+
+#op__text{
+    font-size: 14px;
+}
+
+#info-title{
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#learn__more{
+    font-size: 13px;
+    color: blue;
+    text-decoration: underline;
+}
+
 
 /*debug*/
 .debug [class^="col"]{
     border: 2px solid yellow;
     padding: 20px;
 }
+
