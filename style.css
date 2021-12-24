@@ -127,6 +127,13 @@ header li a {
 #jumbo{
     background-color: #B4D0E7;
     padding-top: 70px;
+    height: 525px;
+}
+
+#jumbo-2{
+    background-color: #B4D0E7;
+    padding-top: 70px;
+    height: 325px;
 }
 
 #jumbo .row:first-child{
@@ -389,10 +396,121 @@ header li a {
     text-decoration: underline;
 }
 
+/*Affiliati*/
 
+#team{
+    width: 100%;
+    border: 0;
+}
+
+#uni-block{
+    position: relative;
+    height: 400px;
+}
+
+.pic-size{
+    width: 50%;
+    height: 50%;
+    float: left;
+    position: relative;
+}
+
+.unipic{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#florida{
+    height: 15%;
+}
+
+#green{
+    background-color: rgb(162, 211, 155);
+    border: 10px solid rgba(255, 255, 255, 0.4);
+}
+
+
+#amaranth{
+    background-color: rgb(97, 8, 43);
+}
+
+#lightblue{
+    background-color: rgb(0, 147, 206);
+}
+
+#red-1{
+    background-color: rgb(255, 28, 28);
+}
+
+#red-2{
+    background-color: rgb(213, 0, 31);
+}
+
+#blue{
+    background-color: rgb(13, 36, 129);
+}
+
+#yellow{
+    background-color: rgb(255, 216, 48);
+}
+
+.global_lead{
+    padding: 20px;
+    height: 98%;
+    width: 98%;
+}
+
+#design_logo{
+    width: 30%;
+}
+
+.global_lead p{
+    padding-top: 70px;
+    font-size: 12px;
+}
+
+.global_lead span{
+    display: block;
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+.try-it{
+    width: 65%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#jumbo-2 h2{
+    font-size: 40px;
+    color: rgb(97, 8, 43);
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#jumbo-2 button{
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    padding: 5px;
+    width: 30%;
+    border: none;
+}
 /*debug*/
 .debug [class^="col"]{
     border: 2px solid yellow;
     padding: 20px;
+}
+
+#jumbo-2{
+    position: relative;
 }
 
