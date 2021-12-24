@@ -200,7 +200,7 @@ header li a {
 }
 
 .plan__body, .plan__footer{
-    padding: 18px;
+    padding: 25px;
 }
 
 .plan__body, .plan-title{
@@ -208,19 +208,6 @@ header li a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.plan__body, .plan-title{
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.plan__body, .plan-title{
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 
 .plan__body .plan-price{
     font-weight: 700;
@@ -308,6 +295,36 @@ header li a {
     padding-bottom: 8px;
 }
 
+#ent-div{
+    position: relative;
+}
+
+#h3-ent{
+    font-size: 23px;
+    display: inline-block;
+}
+
+#a-ent{
+    float: right;
+    line-height: 10px;
+    width: 20%;
+    margin-top: 10px;
+}
+
+#check-ent{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+#expl-ent{
+    display: block;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
 /*Partner*/
 
 #sec__partner{
