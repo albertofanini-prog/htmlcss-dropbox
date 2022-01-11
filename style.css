@@ -36,7 +36,6 @@ ul, ol{
 /*LAYOUT*/
 
 .section{
-    padding: 0 15px;
 }
 
 .container-fluid{
@@ -530,6 +529,8 @@ header li a {
 
 #jumbo-2{
     position: relative;
+    width: 100%;
+    border: none;
 }
 
 #jumbo-2 h2{
@@ -566,9 +567,19 @@ header li a {
 
 .contain{
     width: 100%;
-    padding: 30px;
+    padding: 10px;
 }
- 
+
+.contain h1::after, .contain h2::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 1240px;
+    background-color: #aaa;
+    margin-top: 20px;
+
+}
+
 .contain h1{
     display: block;
     width: 65%;
@@ -591,12 +602,15 @@ header li a {
     font-size: 30px;
     text-align: center;
     background-color: white;
+    border: none;
+    font-size: 16px;
 }
 
 .questions{
     width: 65%;
     height: 50%;
 }
+
 /*debug*/
 
 .debug [class^="col"]{
@@ -608,4 +622,39 @@ header li a {
     padding-bottom: 75px;
 }
 
+footer{
+    background-color: black;
+}
 
+.col-2__footer{
+}
+
+.col-2__footer h4{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#under::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 75px;
+    background-color: #aaa;
+    margin-top: 80px;
+}
+
+.col-2__footer ul li{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.row__footer{
+    padding: 5% 10%;
+}
+
+#language{
+    padding-top: 40px;
+    color: silver;
+}
