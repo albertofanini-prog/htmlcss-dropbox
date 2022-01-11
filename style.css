@@ -253,7 +253,7 @@ header li a {
     color: #0061FF;
 }
 
-.plan__body::after{
+.under__item::after{
     content: '';
     display: block;
     height: 1px;
@@ -290,9 +290,17 @@ header li a {
     font-size: 12px;
 }
 
+.blu{
+    color:blue;
+}
+
 .options{
     padding: 10px 0px;
     font-size: 12px;
+}
+
+.blue{
+    color: blue;
 }
 
 #plan-footer-h4{
@@ -570,14 +578,14 @@ header li a {
     padding: 10px;
 }
 
-.contain h1::after, .contain h2::after{
+.contain::after{
     content: '';
     display: block;
     height: 1px;
-    width: 1240px;
+    max-width: 1200px;
     background-color: #aaa;
     margin-top: 20px;
-
+    margin-left: 17.5%;
 }
 
 .contain h1{
